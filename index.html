@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Site com bootstrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="img/Lamborghini-Logo.png" alt="Logo" width="150" height="75" class="d-inline-block align-text-top">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="#" class="nav-link">MODELOS</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">ALÉM</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">PROPRIEDADES</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">AUTOMOBILISMO</a>
+                        </li>
+                    </ul>
+                        <form class="d-flex p-2" role="search">
+                            <input class="form-control me-2" placeholder="Procurar" type="search" aria-label="Search" id="input_procurar">
+                            <button class="btn btn-outline-success" type="submit" id="btt">Procurar</button>
+                        </form>
+                </div>
+            </div>
+            
+          </nav> 
+          
+           <div id="carrossel" class="carousel slide" data-bs-ride="carousel" height="500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/slide1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/slide2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>MODELOS ÍNCRIVEIS ESTÃO A SUA ESPERA</h1>
+                        <p>Lamborghini é a marca mais luxuosa e imponente em todo o planeta.</p>
+
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#box" aria-expanded="false" aria-controls="box">PERSONALIZAR O SEU PEDIDO</button>
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                        <img src="img/lamborghini.png" class="img-fluid" id="img_right">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <h1>LAMBORGHINI PELO MUNDO</h1>
+                <P>NOTÍCIAS</P>
+
+                <img src="img/img_center.png" class="img-fluid">
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+
+                    <div id="carrossel-02" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/slide4.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide5.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide6.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="col-md-6 mt-3">
+                        <h3>Nova Parceria</h3>
+                        <p>Lamborghini anuncia parceria revolucionária com empresa de tecnologia para desenvolver carros autônomos de alto desempenho.
+                        </p>
+
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#box" aria-expanded="false" aria-controls="box">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+
+                    <div id="carrossel-02" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/slide_roupas1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide_roupas2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide_roupas3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="col-md-6 mt-3">
+                        <h3>Ropas e carros</h3>
+                        <p>Lamborghini se une a famoso designer de moda para criar uma coleção de roupas de luxo inspirada nos carros esportivos da marca.
+                        </p>
+
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#box" aria-expanded="false" aria-controls="box">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+
+                    <div id="carrossel-02" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/slide_newmodel1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide_newmodel2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide_newmodel3.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="col-md-6 mt-3">
+                        <h3>Novo modelo vindo aí</h3>
+                        <p>Lamborghini revela novo modelo que pode chegar até 450km/h.
+                        </p>
+
+                        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#box" aria-expanded="false" aria-controls="box">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="bg-dark text-light text-center py-3 mt-5">
+                <p>&copy; Desenvolvido por Felipe Yuri Pascoal - 2023</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/fepascoal_/" class="footer_link" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/felipe-pascoal-6415b020b/" class="footer_link" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/fepascoal" class="footer_link" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+            </footer>
+    </body>
+
+</html>
